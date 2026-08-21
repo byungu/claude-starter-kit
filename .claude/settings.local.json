@@ -1,1 +1,19 @@
-{}
+{
+  "permissions": {
+    "allow": [
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebSearch",
+      "Bash",
+      "Bash(npm install *)",
+      "Skill(git:commit)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "playwright"
+  ]
+}
